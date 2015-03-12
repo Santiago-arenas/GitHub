@@ -15,7 +15,7 @@ def __init__():
 
 def Menu(opt):
     if(opt == 1):
-        print("Trabajando GPIO")
+        print("Trabajando SALIDAS DIGITALES")
         time.sleep(3)
         functionGPIO()
     elif(opt == 2):
